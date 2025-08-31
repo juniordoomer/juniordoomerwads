@@ -1,0 +1,45 @@
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ff3300;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.wad-item {
+    margin-bottom: 30px;
+}
+
+.wad-item img {
+    display: block;
+    margin-bottom: 10px;
+    border: 2px solid #ff3300;
+}
